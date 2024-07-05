@@ -1,0 +1,26 @@
+{
+    "name": "firefine",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "sparksjr": "github:kiki-lee/sparksjr#v0.1.2",
+        "sparks": "github:kiki-lee/sparks#v0.1.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
