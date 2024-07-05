@@ -1,11 +1,11 @@
-sparksjr.onScore(100, function () {
-    sparksjr.fireWin()
+sparksjr.onScore2(-1000, function () {
+    sparksjr.fireLoss()
 })
 sparksjr.onB(function () {
     sparksjr.changeScoreOverride(1)
 })
-sparksjr.onScore2(-10, function () {
-    sparksjr.fireLoss()
+sparksjr.onScore(1000, function () {
+    sparksjr.fireWin()
 })
 scene.setBG(img`
     fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -133,5 +133,4 @@ sparksjr.addFire()
 stopwatch.stopJr()
 stopwatch.onUpdateInterval3(1, function () {
     sparksjr.changeScoreOverride(-1)
-    stopwatch.stopJr()
 })
